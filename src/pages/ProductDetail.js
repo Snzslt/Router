@@ -4,13 +4,14 @@ function ProductDetailPage(){
     
     
 
- return (<>
-      <h1>
+ return (
+ <>
+    <h1>
      Product details
      </h1>
      <p>{params.productId}</p>
 </>
  
- )
+ );
 }
 export default ProductDetailPage;
